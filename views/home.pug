@@ -1,0 +1,63 @@
+extends base.pug
+
+block style
+    link(rel='stylesheet', href='../static/style.css')
+
+block content
+    section.intro
+      h1 Paddle Away...
+      |         
+      h3  @Cyclopedia Academy 
+      |         
+      video(src='../static/vid/1hd.mp4')
+    |     
+    |    
+    |     
+    section.introSection1
+      h2  I Came. I Spun. 
+      |         
+      h1 I Conquered.
+      |         
+      video.video-background(autoplay='', loop='', muted='', plays-inline='')
+        source(src='../static/vid/3.mp4', type='video/mp4')
+    |     
+    section.programsFeature
+      h1 Program Features
+      |         
+      .upper
+        li#feat1.features Detailed Daily Workouts &amp; Instruction
+        |             
+        li#feat2.features Core &amp; Conditioning Workout
+      |         
+      .between
+        li#feat6.features Guidance on biking
+        |             
+        li#feat7.features Cross Training
+      |         
+      .lower
+        li#feat3.features Detailed Cycling Workouts
+        |             
+        li#feat4.features Regular Fitness Test &amp; Challenges
+        |             
+        li#feat5.features Affordable Fees
+    |     
+    section.partners
+      h1 Our Partners
+      |         
+      img.pimg(src='../static/img/1p.jpg', alt='partener image')
+      |         
+      img.pimg(src='../static/img/2p.jpg', alt='partener image')
+      |         
+      img.pimg(src='../static/img/3p.jpg', alt='partener image')
+         
+   
+block scripts
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js', integrity='sha512-HzAEuXwhLxwm/Jj+5ecdjzrRVrjuh2ZeIxyT1Ln37TO5pWNMnKBuU7cfd1wvRQ/k86w1oC174Yk1T7aRlBpIcA==', crossorigin='anonymous')
+    |     
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js', integrity='sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==', crossorigin='anonymous')
+    |     
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js', integrity='sha512-jlbgjhSLRQsQc/bits6lHjywF3n/NLO3Sz1rwa9gsUnCOi0f0lD/yAul75UNOzIiDg35zaJJ3BKT3zo6+i9lQA==', crossorigin='anonymous')
+    |     
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.js', integrity='sha512-vWutwDjKJo+VMAA7IrS/ICTmVYXRMdqtXA27MSuPxGjkbYnKeUKPrIpfsAwIXCzaSDF/qRy/L85ko/yxW0AIiA==', crossorigin='anonymous')
+    |     
+    script(src='../static/index.js')

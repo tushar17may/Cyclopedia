@@ -1,0 +1,118 @@
+.intro::before{
+    content: "";
+    width: 100%;
+    height:100%;
+    z-index: -1;
+    position: absolute;
+    background: url('./img/ab1.jpg') no-repeat center center;
+    background-size: cover;
+}
+.programsFeature h1{
+    position: absolute;
+
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    color: whitesmoke;
+    margin-top: 245px;
+    text-shadow: 3px 2px 8px black;
+
+}
+
+.intro h3{
+    margin-top: 44px;
+}
+
+
+.introSection1 p{
+    position: absolute;
+
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    color: #033e58;
+    text-shadow: 3px 2px 13px white;
+  
+}
+
+#para1{
+    margin-top: 200px;
+    left: 40%;
+}
+#para2{
+    margin-top: 350px;
+    left: 50%;
+}
+#para3{
+    left: 65%;
+    margin-top: 500px;
+}
+
+#missionsection{
+    
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+#missionsection h2{
+    position: absolute;
+
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+    color: black;
+    margin-top: 50px;
+    text-shadow: 3px 2px 8px rgb(146, 145, 145);
+
+}
+
+.card{
+  
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 28%;
+    margin: 95px 16px;
+    height: 463px;
+    background-color: white;
+
+}
+
+.card h3{
+    text-align: center;
+    margin: 8px;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;/*imp*/
+}
+
+.card-img{
+    display: inline;
+    height: 115px;
+    margin: 20px 50px;
+    margin-left: 61px;
+    
+}
+
+.card-img img{
+    height: inherit;/*imp*/
+    
+}
+
+.cardtext{
+    margin-top: 200px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+} 
+

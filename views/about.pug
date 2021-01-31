@@ -1,0 +1,65 @@
+extends base.pug
+
+block style
+    link(rel='stylesheet', href='../static/style.css')
+    link(rel='stylesheet', href='../static/styleabout.css')
+
+block content
+    section.intro
+      h1 Its Not An Academy, 
+      |         
+      h3 Its A Fitness Movement     
+    |     
+    |    
+    |     
+    section.introSection1
+      h2  We At Cyclopedia 
+      |         
+      p#para1 We are initiating a fitness movement, by introducing structured coaching by professionals from across the globe at affordable cost, so that everyone is motivated to “be fit, be Yoska!!”.
+      |
+      p#para2 We believe being fit is neither a social pressure nor an individual choice, it is much bigger. It is a responsibility that each of us are accountable towards our loved ones!! You have to be fit for your loved ones and for their happiness more than for anything!
+      |
+      p#para3 We are committed to enable your fitness responsibility through our personalized programs. Enroll today so that your loved ones can stop worrying about your health !!
+      |         
+      video.video-background(autoplay='', loop='', muted='', plays-inline='')
+        source(src='../static/vid/ab1.mp4', type='video/mp4')
+    |     
+    section#missionsection
+      h2 OUR MISSION
+      |
+      div.card
+        h3 Fit forever
+          div.card-box
+            div.card-img
+              img(src="../static/img/card1.png")
+              p.cardtext Those who just woke up to realize their fitness responsibility towards their loved ones and don’t know where to start.START HERE!
+                    
+      |      
+      div.card
+        h3 Run, your passion
+          div.card-box
+            div.card-img
+              img(src="../static/img/card2.png")
+              p.cardtext Already into running or want to explore running to be fit and healthy, this program will help you run your first 5 Kms.
+
+      |  
+      div.card
+        h3 Fit by-cycle
+          div.card-box
+            div.card-img
+              img(src="../static/img/card3.png")
+              p.cardtext Cycling lets you explore new places. If you have fitness goals through cycling then our program is tailored to help you achieve those.
+             
+    section.partners
+      h1 Our Partners
+      |         
+      img.pimg(src='../static/img/1p.jpg', alt='partener image')
+      |         
+      img.pimg(src='../static/img/2p.jpg', alt='partener image')
+      |         
+      img.pimg(src='../static/img/3p.jpg', alt='partener image')
+         
+   
+block scripts
+       
+    script(src='../static/index.js')

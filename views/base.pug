@@ -1,0 +1,41 @@
+//- base.pug
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    |     
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    |     
+    title Home
+    block style      
+  body
+    nav#navbar
+      ul
+        #logo
+          img(src='../static/img/icon.jpg')
+          | SDA 
+          |             
+          li
+            a(href='/') Home
+          |             
+          li
+            a(href='/about') About
+          |             
+          li
+            a(href='/') Services
+          |             
+          li
+            a(href='/') Class info
+          |             
+          li
+            a(href='/contact') Contact us
+    |       
+    block content
+    footer#footer
+      #logo
+          img(src='../static/img/icon.jpg')
+      div Copyright &copy; 2020 CyclopediaAcademy.com
+      |         
+      p All Rights Reserved
+    block scripts
+              
