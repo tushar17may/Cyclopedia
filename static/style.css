@@ -30,7 +30,7 @@ body{
     opacity: 0.8;
     position: sticky;
     background-color: black;
-    padding:13px 14px;
+    padding:10px 14px;
 
 }
 #navbar ul{
@@ -38,7 +38,7 @@ body{
     flex-direction: row;
     /* justify-content: center; */
     align-items: center;
-
+    margin-top: 10px;
 }
 #navbar li{
     list-style: none;

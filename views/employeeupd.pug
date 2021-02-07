@@ -1,0 +1,24 @@
+extends base.pug
+
+block style
+    style
+      include ../static/style.css
+      include ../static/stylecontact.css
+
+block content
+    div.container 
+        h1 Employee
+        h3= viewTitle
+        form(action="/employee", method="POST",class="myform" autocomplete="off")
+            input(type='hidden', name='_id', value= `${employee._id}`)
+            |
+            input(id="name" type="text",class="myinput", name="name",placeholder="Enter Your UserName" , value=`${employee.name}`)
+            input(id="phone" type="text",class="myinput", name="phone",placeholder="Enter Your phone" ,value=`${employee.phone}`)
+            input(id="email" type="text",class="myinput", name="email",placeholder="Enter Your email" ,value=`${employee.email}`)
+            input(type="text",class="myinput", name="address",placeholder="Enter Your address" ,value=`${employee.address}`)
+            input(type="text",class="myinput", name="desc",placeholder="Enter Your concern" ,value=`${employee.desc}`)
+            button(class="btn") 
+                | Submit         
+block scripts
+    script(src='/static/indexcontact.js')
+    
